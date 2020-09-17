@@ -1,0 +1,19 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Roboto-Bold"; src: url("../fonts/Roboto-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+h1 { margin: 0; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Place Video Inside Text Section Starts -------*/
+
+.banner { align-items: center; display: flex; height: 100vh; justify-content: center; overflow: hidden; position: absolute; width: 100%; }
+.banner > video { height: 100%; left: 0; object-fit: cover; position: absolute; top: 0; width: 100%; }
+.banner > h1 { background-color: #ffffff; color: #000000; font: 30vw/1 "Roboto-Bold"; height: 100%; left: 0; line-height: 100vh; mix-blend-mode: screen; position: absolute; text-align: center; text-transform: uppercase; top: 0; width: 100%; }
+
+/*------- Place Video Inside Text Section Ends -------*/
